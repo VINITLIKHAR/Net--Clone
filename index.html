@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="icon" href="assets/Images/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <nav>
+        <span><img width="90" src="assets/Images/logo.svg" /></span>
+        <div>
+          <button class="btn">
+            <svg
+              fill="#ffffff"
+              width="15px"
+              height="15px"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M478.33,433.6l-90-218a22,22,0,0,0-40.67,0l-90,218a22,22,0,1,0,40.67,16.79L316.66,406H419.33l18.33,44.39A22,22,0,0,0,458,464a22,22,0,0,0,20.32-30.4ZM334.83,362,368,281.65,401.17,362Z"
+              />
+
+              <path
+                d="M267.84,342.92a22,22,0,0,0-4.89-30.7c-.2-.15-15-11.13-36.49-34.73,39.65-53.68,62.11-114.75,71.27-143.49H330a22,22,0,0,0,0-44H214V70a22,22,0,0,0-44,0V90H54a22,22,0,0,0,0,44H251.25c-9.52,26.95-27.05,69.5-53.79,108.36-31.41-41.68-43.08-68.65-43.17-68.87a22,22,0,0,0-40.58,17c.58,1.38,14.55,34.23,52.86,83.93.92,1.19,1.83,2.35,2.74,3.51-39.24,44.35-77.74,71.86-93.85,80.74a22,22,0,1,0,21.07,38.63c2.16-1.18,48.6-26.89,101.63-85.59,22.52,24.08,38,35.44,38.93,36.1a22,22,0,0,0,30.75-4.9Z"
+              />
+            </svg>
+            English
+          </button>
+          <button class="btn btn-red-sm">Sign In</button>
+        </div>
+      </nav>
+      <div class="box"></div>
+      <div class="hero">
+        <span>Unlimited movies, TV shows and more.</span>
+        <span>Starts at ₹149. Cancel at any time.</span>
+        <span>
+          Ready to watch? Enter your email to create or restart your
+          membership.</span
+        >
+        <div class="hero-buttons">
+          <input type="text" placeholder="Email address" />
+          <button class="btn btn-red">Get Started &gt;</button>
+        </div>
+      </div>
+      <div class="separation"></div>
+    </div>
+
+    <section class="first" style="margin-top: 7px">
+      <div class="container">
+        <span> Enjoy on your TV</span>
+        <span>
+          Watch on Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+          players and more.
+        </span>
+      </div>
+      <div class="secImg">
+        <img src="assets/Images/tv screen.png" alt="tv screen" />
+        <video src="assets/Videos/video2.m4v" autoplay loop></video>
+      </div>
+    </section>
+    <div class="separation"></div>
+
+    <section class="first second">
+      <div class="secImg">
+        <img src="assets/Images/mobile-st.jpg" alt="tv screen" />
+      </div>
+      <div class="container">
+        <span> Watch offline</span>
+        <span>
+          Save your favourites easily and always have something to watch
+        </span>
+      </div>
+    </section>
+    <div class="separation"></div>
+
+    <section class="first third">
+      <div class="container">
+        <span> Watch everywhere</span>
+        <span>
+          Stream unlimited movies and TV shows on your phone, tablet, laptop,
+          and TV.
+        </span>
+      </div>
+      <div class="secImg">
+        <img src="assets/Images/device-pile-in.png" alt="tv screen" />
+        <video src="assets/Videos/video1.m4v" autoplay loop muted></video>
+      </div>
+    </section>
+    <div class="separation"></div>
+    <section class="first forth">
+      <div class="secImg">
+        <img src="assets/Images/children.png" alt="tv screen" />
+      </div>
+      <div class="container">
+        <span>Create profile for kids</span>
+        <span>
+          Send children on adventure with their favourite characters a space
+          made just fot them - free with your membership
+        </span>
+      </div>
+    </section>
+    <div class="separation"></div>
+
+    <h2
+      style="
+        color: white;
+        margin: 15px 0px 15px 25px;
+        text-decoration: underline;
+      "
+    >
+      My Favorite
+    </h2>
+
+    <div class="slider-container">
+      <button class="arrow arrow-left" onclick="scrollSlider(-1)">
+        &#10094;
+      </button>
+      <div class="slider" id="slider">
+        <div class="movie">
+          <img src="assets/Trending/Breaking Bad.jpeg" alt="Movie 1" />
+          <div class="movie-number">1</div>
+        </div>
+        <div class="movie">
+          <img src="assets/Trending/One Piece.jpeg" alt="Movie 2" />
+          <div class="movie-number">2</div>
+        </div>
+        <div class="movie">
+          <img src="assets/Trending/money heist.jpeg" alt="Movie 3" />
+          <div class="movie-number">3</div>
+        </div>
+        <div class="movie">
+          <img src="assets/Trending/Peaky Blinders.jpeg" alt="Movie 4" />
+          <div class="movie-number">4</div>
+        </div>
+        <div class="movie">
+          <img src="assets/Trending/Wednesday.jpeg" alt="Movie 5" />
+          <div class="movie-number">5</div>
+        </div>
+        <div class="movie">
+          <img src="assets/Trending/Stranger Things.jpeg" alt="Movie 6" />
+          <div class="movie-number">6</div>
+        </div>
+        <div class="movie">
+          <img src="assets/Trending/Squid Game.jpeg" alt="Movie 7" />
+          <div class="movie-number">7</div>
+        </div>
+        <div class="movie">
+          <img src="assets/Trending/Narcos.jpeg" alt="Movie 8" />
+          <div class="movie-number">8</div>
+        </div>
+        <div class="movie">
+          <img src="assets/Trending/Adolescence.jpeg" alt="Movie 9" />
+          <div class="movie-number">9</div>
+        </div>
+        <div class="movie">
+          <img src="assets/Trending/Dark.jpeg" alt="Movie 10" />
+          <div class="movie-number">10</div>
+        </div>
+        <!-- Add more as needed -->
+      </div>
+      <button class="arrow arrow-right" onclick="scrollSlider(1)">
+        &#10095;
+      </button>
+    </div>
+
+    <div class="separation"></div>
+
+    <div class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faqbox">
+        <span>What is Netflix?</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          color="#000000"
+          fill="none"
+        >
+          <path
+            d="M12 4V20M20 12H4"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+
+      <div class="faqbox">
+        <span>How much does Netflix cost?</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          color="#000000"
+          fill="none"
+        >
+          <path
+            d="M12 4V20M20 12H4"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+
+      <div class="faqbox">
+        <span>Where can I watch?</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          color="#000000"
+          fill="none"
+        >
+          <path
+            d="M12 4V20M20 12H4"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+
+      <div class="faqbox">
+        <span>How do I cancel?</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          color="#000000"
+          fill="none"
+        >
+          <path
+            d="M12 4V20M20 12H4"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+
+      <div class="faqbox">
+        <span>What can I watch on Netflix?</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          color="#000000"
+          fill="none"
+        >
+          <path
+            d="M12 4V20M20 12H4"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+
+      <div class="faqbox">
+        <span>Is Netflix good for kids?</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          color="#000000"
+          fill="none"
+        >
+          <path
+            d="M12 4V20M20 12H4"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+    </div>
+    <div class="foottxt">
+      <span>
+        Ready to watch? Enter your email to create or restart your
+        membership.</span
+      >
+    </div>
+    <div class="hero-buttons foot">
+      <input type="text" placeholder="Email address" />
+      <button class="btn btn-red">Get Started &gt;</button>
+    </div>
+
+    <footer>
+      <div class="questions">
+        Questions? Call
+        <a href="#" style="color: #ffffffb3">000-800-919-1743</a>
+      </div>
+      <div class="footer">
+        <div class="footer-item">
+          <a href="#">FAQ</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Privacy</a>
+          <a href="#">Speed Test</a>
+        </div>
+        <div class="footer-item">
+          <a href="#">Help Centre</a>
+          <a href="#">Jobs</a>
+          <a href="#">Cookie Preferences</a>
+          <a href="#">Legal Notices</a>
+        </div>
+        <div class="footer-item">
+          <a href="#">Account</a>
+          <a href="#">Ways to Watch</a>
+          <a href="#">Corporate Information</a>
+          <a href="#">Only on Netflix</a>
+        </div>
+        <div class="footer-item">
+          <a href="#">Media Centre</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="net">
+        <button class="btn">
+          <svg
+            fill="#ffffff"
+            width="15px"
+            height="15px"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M478.33,433.6l-90-218a22,22,0,0,0-40.67,0l-90,218a22,22,0,1,0,40.67,16.79L316.66,406H419.33l18.33,44.39A22,22,0,0,0,458,464a22,22,0,0,0,20.32-30.4ZM334.83,362,368,281.65,401.17,362Z"
+            />
+
+            <path
+              d="M267.84,342.92a22,22,0,0,0-4.89-30.7c-.2-.15-15-11.13-36.49-34.73,39.65-53.68,62.11-114.75,71.27-143.49H330a22,22,0,0,0,0-44H214V70a22,22,0,0,0-44,0V90H54a22,22,0,0,0,0,44H251.25c-9.52,26.95-27.05,69.5-53.79,108.36-31.41-41.68-43.08-68.65-43.17-68.87a22,22,0,0,0-40.58,17c.58,1.38,14.55,34.23,52.86,83.93.92,1.19,1.83,2.35,2.74,3.51-39.24,44.35-77.74,71.86-93.85,80.74a22,22,0,1,0,21.07,38.63c2.16-1.18,48.6-26.89,101.63-85.59,22.52,24.08,38,35.44,38.93,36.1a22,22,0,0,0,30.75-4.9Z"
+            />
+          </svg>
+          English
+        </button>
+        <span>&copy; Netflix India</span>
+      </div>
+    </footer>
+
+    <script>
+      function scrollSlider(direction) {
+        const slider = document.getElementById("slider");
+        const scrollAmount = 220; // adjust based on movie width + gap
+        slider.scrollBy({ left: direction * scrollAmount, behavior: "smooth" });
+      }
+    </script>
+  </body>
+</html>
